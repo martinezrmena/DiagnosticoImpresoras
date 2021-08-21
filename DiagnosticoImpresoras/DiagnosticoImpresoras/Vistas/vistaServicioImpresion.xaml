@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiagnosticoImpresoras.Vistas.vistaServicioImpresion"
+             Title="Diagnostico de Impresoras">
+    <ContentPage.Content>
+        <StackLayout Margin="15">
+            <Button x:Name="btnDiagnosticarConexion" Text="1) Diagnosticar conexion a impresora" Clicked="btnDiagnosticarConexion_Clicked"/>
+            <Button x:Name="btnDiagnosticarLenguaje" Text="2) Diagnosticar lenguaje de impresora" Clicked="btnDiagnosticarLenguaje_Clicked"/>
+            <Button x:Name="btnDiagnosticarEstado" Text="3) Diagnosticar estado de impresora" Clicked="btnDiagnosticarEstado_Clicked"/>
+            <Button x:Name="btnDiagnosticarCaret" Text="4) Diagnosticar identificador de codigos" Clicked="btnDiagnosticarCaret_Clicked"/>
+            <Button x:Name="btnPruebaImpresion" Text="5) Prueba de impresion" Clicked="btnPruebaImpresion_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
